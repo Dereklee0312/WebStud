@@ -8,36 +8,40 @@
   </head>
   <body>
     <h1>Race Registration!</h1>
-    <form>
-      <p>
+    <form action="">
+      <div>
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="fname" required />
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lname" required />
-      </p>
+      </div>
+      <p>Select a Race:</p>
       <div>
-        <p>Select a Race:</p>
         <input type="radio" name="marathon" value="fivek" id="fivek" />
         <label for="fivek">Fun Run 5k</label>
-        <br />
+      </div>
+      <div>
         <input type="radio" name="marathon" value="half" id="half" />
         <label for="half">Half Marathon</label>
-        <br />
+      </div>
+      <div>
         <input type="radio" name="marathon" value="full" id="full" />
         <label for="full">Full Marathon</label>
       </div>
       <div>
         <label for="mail">Email</label>
-        <input type="email" name="mail" id="mail" />
+        <input type="email" name="mail" id="mail" required />
         <label for="pwd">Password</label>
-        <input type="password" name="pwd" id="pwd" />
+        <input type="password" name="pwd" id="pwd" required />
       </div>
       <label for="age">Select Age Group</label>
       <select name="age" id="age">
         <option value="u18">Under 18</option>
         <option value="o18" selected>Over 18</option>
       </select>
-      <button type="submit">Register!</button>
+      <div>
+        <button type="submit">Register!</button>
+      </div>
     </form>
   </body>
 </html>
