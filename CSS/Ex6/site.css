@@ -1,0 +1,17 @@
+body {
+	font-family: 'Moon Dance', cursive;
+}
+nav {
+	font-size: 2em;
+	font-weight: 700;
+	padding: 0.75em 0;
+	margin-bottom: 0.5em;
+	margin-left: 0.5em;
+	border-bottom: 2px solid #adb5bd;
+	width: 30%;
+}
+
+img {
+	width: 30%;
+	margin: calc(10%/6);
+}
